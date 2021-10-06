@@ -1,0 +1,75 @@
+
+                                CALIFORNIA
+                      DEATH INDEX FILE DOCUMENTATION
+
+
+ The Death Index Files contain variable length records with nine comma
+ separated fields in each record. If the last field, "Father's Last Name",
+ is blank there will be one blank space at the end of that record.
+
+The public-use and anti-fraud files are intended for public release but are non-comprehensive and not intended to be a precise enumeration of birth or death events in a given year.  Both the public-use and anti-fraud files may contain multiple entries for a single birth or death event. The public-use and anti-fraud files may also omit some birth or death events. As a result, the number of records in the public-use and anti-fraud files may differ significantly from the actual number of birth or death events in a given year.  Data users interested in a precise enumeration of vital events for a given year, may reference the National Center for Health Statistics (NCHS) public files  (https://www.cdc.gov/nchs/data_access/vitalstatsonline.htm) or complete and submit a research application (https://www.cdph.ca.gov/Programs/CHSI/Pages/Data-Applications.aspx) to CHSI in order to access the comprehensive birth or death files. If you have any questions regarding the public-use and anti-fraud files, please contact HIRS@cdph.ca.gov.	
+
+-----------------------------------------------------------------------------
+ FIELD    	FIELD NAME
+ POSITION   ------------------------------------------
+    	         FIELD DESCRIPTION PARTICULARS
+-----------------------------------------------------------------------------
+ 
+  1.      	Last Name
+         ------------------------------------------------------------------
+		 Name may be truncated.
+                 ZZ = unknown or not stated
+
+
+  2.      	First Name
+         ------------------------------------------------------------------
+		 Name may be truncated.
+                 blank = unknown or not stated
+
+
+  3.      	Middle Name
+         ------------------------------------------------------------------
+		 Name may be truncated or middle initial only.
+                 blank = unknown or not stated
+
+
+  4.      	Sex
+         ------------------------------------------------------------------
+		 UNKNOWN = unknown, not stated, missing, or invalid
+
+
+  5.      	Date of Birth (mm/dd/yyyy)
+         ------------------------------------------------------------------
+                 mm = month (01-12)
+                 dd = day (01-31)
+                 yyyy = year
+                 blank = unknown
+
+
+  6.      	Date of Death (mm/dd/yyyy)
+         ------------------------------------------------------------------
+                 mm = month (01-12)
+                 dd = day (01-31)
+                 yyyy = year
+                 blank = unknown
+
+
+  7.    	Birth Place
+         ------------------------------------------------------------------
+                 The country or U.S. state where birth occurred.
+		 blank = unknown or not stated
+
+ 
+  8.    	Death Place
+         ------------------------------------------------------------------
+                 The California county where death occurred.
+
+
+
+  9.       	Father's Last Name
+         ------------------------------------------------------------------
+		 Name may be truncated.
+                 blank = unknown, not stated, or same as decedent's surname
+
+
+-----------------------------------------------------------------------------
