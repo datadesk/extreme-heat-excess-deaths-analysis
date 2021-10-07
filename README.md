@@ -1,6 +1,6 @@
 # extreme-heat-excess-deaths-analysis
 
-The Los Angeles Times conducted a statistical analysis of excess deaths attributable to extreme heat in Californaia's most populous counties. The newspaper's findings are reported in <a href="https://www.latimes.com/projects/california-extreme-heat-deaths-show-climate-change-risks">this article</a>.
+The Los Angeles Times conducted a statistical analysis of excess deaths attributable to extreme heat in California's most populous counties. The newspaper's findings are reported in <a href="https://www.latimes.com/projects/california-extreme-heat-deaths-show-climate-change-risks">this article</a>.
 
 The analysis was conducted in consultation with data analyst Logan Arnold and reviewed by four independent experts in the fields of epidemiology and bioclimatology.
 
